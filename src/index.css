@@ -1,0 +1,27 @@
+#root {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.todoCreator {
+  display: flex;
+  margin-left: 20px;
+}
+
+.todoTitleInput {
+  font-size: 16px;
+}
+
+.addTodoButton {
+  font-size: 16px;
+}
+
+.todoCount {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+}
