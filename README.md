@@ -1,5 +1,5 @@
 # Recoil Todo App
-Todo application developed using Recoil.  
+Todo application developed using [Recoil](https://recoiljs.org/).  
 This project was bootstrapped with [Vite](https://vitejs.dev/).
 
 ## Requirements
