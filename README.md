@@ -1,6 +1,5 @@
 # Recoil Todo App
-Todo application developed using [Recoil](https://recoiljs.org/).  
-This project was bootstrapped with [Vite](https://vitejs.dev/).
+Todo application developed using [Recoil](https://recoiljs.org/).
 
 ## Requirements
 
@@ -22,11 +21,11 @@ The recommended extensions for Visual Studio Code are listed in [.vscode/extensi
 git clone https://github.com/kwn1125/recoil-todo-app.git <project_directory>
 ```
 
-- Install dependencies.
+- Install dependencies by referencing the package-lock.json.
 
 ```
 cd <project_directory>
-npm install
+npm ci
 ```
 
 - Launch the application.
