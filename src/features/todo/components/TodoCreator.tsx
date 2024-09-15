@@ -24,7 +24,12 @@ export const TodoCreator = () => {
   return (
     <div className="todoCreator">
       <input type="text" className="todoTitleInput" onChange={onChange} value={todoTitle} />
-      <button type="button" className="addTodoButton" onClick={handleClick}>
+      <button
+        type="button"
+        className="addTodoButton"
+        onClick={handleClick}
+        disabled={!todoTitle.trim()}
+      >
         Add
       </button>
     </div>
