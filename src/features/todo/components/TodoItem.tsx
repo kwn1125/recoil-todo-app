@@ -1,8 +1,7 @@
 import { useRecoilValue } from "recoil";
 
+import { TodoRenderer } from "@/features/todo/components/TodoRenderer";
 import { todoState } from "@/features/todo/states/todoState";
-
-import { TodoRenderer } from "./TodoRenderer";
 
 type Props = {
   todoId: string;

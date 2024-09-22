@@ -1,6 +1,6 @@
 import { memo } from "react";
 
-import { Todo } from "../types/Todo";
+import { Todo } from "@/features/todo/types/Todo";
 
 type Props = {
   todo: Todo;
