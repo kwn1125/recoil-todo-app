@@ -11,7 +11,7 @@ export const TodoCreator = () => {
   const todoId = getKey();
   const setTodo = useSetRecoilState(todoState(todoId));
 
-  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTodoTitle(e.target.value);
   };
 
@@ -23,7 +23,7 @@ export const TodoCreator = () => {
 
   return (
     <div className="todoCreator">
-      <input type="text" className="todoTitleInput" onChange={onChange} value={todoTitle} />
+      <input type="text" className="todoTitleInput" onChange={handleChange} value={todoTitle} />
       <button
         type="button"
         className="addTodoButton"
